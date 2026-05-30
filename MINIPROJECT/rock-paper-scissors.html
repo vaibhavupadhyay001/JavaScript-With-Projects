@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<style>
+
+
+    .a{
+        height:60px;
+        width:80px;
+        font-size: 38px;
+        border-radius: 40%;
+        gap:20px;
+        border: 1px solid black;
+        margin-bottom: 15px;
+        background-color: rgb(14, 177, 123);
+
+    }
+    .reset-btn{
+        height:25px;
+        width:100px;
+        font-family: sans-serif;
+        font-weight: bold;
+        border-radius: 8px;
+        border: none;
+        background: rgb(234, 76, 76);
+    }
+    .autoplay{
+        height:25px;
+        width:100px;
+        font-family: sans-serif;
+        font-weight: bold;
+        border-radius: 8px;
+        border: none;
+        background: rgb(221, 224, 35);
+        margin-left: 42px;
+
+    }
+    .result{
+        font-size: 20px;
+        color:black;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-left: 5px;
+
+
+    }
+    .moves,.score{
+        font-size: 14px;
+        color:black;
+        font-family: sans-serif;
+        font-weight:500;
+        margin-left: 5px;
+    
+
+    }
+    .score{
+        margin-bottom: 15px;
+    }
+
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .main-box{
+display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height:300px;
+        width:350px;
+        border-radius: 12px;
+        border: 1px solid grey;
+        background-color:rgb(108, 125, 134);
+
+    }
+
+
+</style>
+<body>
+    <div class="main-box">
+        <div class="inside">
+
+    <button class="a  js-rock">✊</button>
+    <button class="a js-paper"> ✋</button>
+    <button class="a  js-scissors">✌️</button>
+
+    <p class="result"></p>
+    <p class="moves"></p>
+    <p class="score"></p>
+
+   <button class="reset-btn"> Reset game</button>
+   <button class="autoplay">Auto play</button>
+
+   </div>
+   </div>
+
+
+   <script src="rps.js"></script>
+    
+    
+</body>
+</html>
